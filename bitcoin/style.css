@@ -1,0 +1,216 @@
+body{
+  background-color: white;
+  margin: auto;
+}
+
+td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+h2{
+  font-family: arial;
+}
+
+button{
+  background-color: #f7c40a;
+  height: 30px;
+  width: 90px;
+  margin-left: 10px;
+  float: left;
+  border-radius: 10%;
+  padding: 5px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #fce300;
+  color: black;
+}
+
+#title{
+  text-align: center;
+  color: black;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.container1 {
+  height: 300px;
+  display: block;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.left-block {
+  position: relative;
+  width: 33%;
+  height: 600px;
+  max-height: 600px;
+  padding: 60px;
+  float: left;
+  background-color: yellow;
+}
+
+.right-block {
+  position: relative;
+  width: 33%;
+  height: 600px;
+  max-height: 600px;
+  padding: 60px;
+  float: left;
+  background-color: red;
+}
+
+.block{
+  float: left;
+  width: 40%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.block2{
+
+  
+}
+
+.block3{
+  position: relative;
+  float: right;
+  margin-right: 150px;
+}
+
+table .illus_totals{
+  border: none;
+}
+
+.text-block{
+  position: absolute;
+  margin-top: 40px;
+  font-family: Helvetica, sans-serif;
+  float: left;
+}
+
+.results-block{
+  position: absolute;
+  margin-top: 40px;
+  font-family: Helvetica, sans-serif;
+  float: left;
+}
+
+.styled-text{
+  font-family: Arial;
+}
+
+.table_label{
+  float: right;
+  font-family: Helvetica, sans-serif;
+}
+
+.rate_cell{
+  width: 30px;
+}
+
+.container2{
+  position: relative;
+  height: 300px;
+}
+
+.container3{
+  position: relative;
+  margin-top: 200px;
+  height: 300px;
+}
+
+.container4{
+  position: relative;
+  margin-top: 350px;
+  height: 150px;
+}
+
+.balance{
+  width: 1000px;
+  float: left;
+  margin-left: 160px;
+}
+
+.price-inputs{
+  float: left;
+  width: 25%;
+}
+
+.value{
+  width: 1000px;
+  float: right;
+  margin-left: 220px;
+  margin-bottom: 100px;
+  position: absolute;
+}
+
+#monthly-price{
+  position: relative;
+  margin-top: 50px;
+  margin-right: 400px;
+  float: right;
+  width: 100px;
+}
+
+.row-header{
+  width: 120px;
+}
+
+.cell{
+  width: 30px;
+}
+
+.tally{
+  float: left;
+  font-family: Arial;
+  padding: 15px;
+}
+
+.btc_results{
+  float: right;
+}
+
+#reset{
+  position: fixed;
+  float: right;
+  margin-left: 1200px;
+  z-index: 2;
+}
+
+#calculator{
+  width: 500px;
+  height: 270px;
+  text-align: center;
+  margin: auto;
+  margin-left: 100px;
+  margin-top: 20px;
+  float: left;
+  font-family: ;
+  background-color: #f2f0dc;
+  border-radius: 10px;
+}
+
+#rate_table{
+  width: 500px;
+  height: 220px;
+  text-align: center;
+  margin: auto;
+  margin-right: 100px;
+  padding: 50;
+  float: right;
+  background-color: #f2f0dc;
+  border-radius: 10px;
+}
+
+#year_end_table{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+#illustrate_inputs{
+  margin: auto;
+  
+}
